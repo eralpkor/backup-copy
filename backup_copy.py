@@ -3,8 +3,8 @@ import datetime
 import os
 import shutil
 
-BACKUP_FILES = '/Users/eralp/test/google' 
-BACKUP_DIRECTORY = '/Users/eralp/test/main/qb_backup_{0}'
+BACKUP_FILES = '/Users/me/test' 
+BACKUP_DIRECTORY = '/Users/me/test/main/qb_backup_{0}'
 
 def get_backup_directory(base_directory):
     date = datetime.datetime.now().strftime('%Y-%m-%d-%H%M-%a')
